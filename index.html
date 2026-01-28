@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindMirror</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🪞 MindMirror</h1>
+    <p class="subtitle">Select your mood. Let the mirror respond.</p>
+
+    <div class="moods">
+      <button onclick="setMood('calm')">😌 Calm</button>
+      <button onclick="setMood('sad')">🌧️ Sad</button>
+      <button onclick="setMood('curious')">🌱 Curious</button>
+      <button onclick="setMood('anxious')">🌪️ Anxious</button>
+      <button onclick="setMood('happy')">☀️ Happy</button>
+    </div>
+
+    <div id="experience" contenteditable="true">
+      <p>Select a mood to begin your reflection.</p>
+    </div>
+
+    <div class="actions">
+      <button onclick="highlightText()">✨ Highlight</button>
+      <button onclick="clearHighlights()">🧹 Clear Highlights</button>
+    </div>
+  </div>
+
+  <audio id="audio" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
