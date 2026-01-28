@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #1e1e2f, #2c2c44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 1s ease;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.moods {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.moods button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#experience {
+  min-height: 150px;
+  padding: 20px;
+  background: rgba(0,0,0,0.25);
+  border-radius: 10px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.actions button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
